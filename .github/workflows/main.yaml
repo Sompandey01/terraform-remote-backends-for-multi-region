@@ -4,13 +4,14 @@ on:
   push:
     branches:
       - main 
-   workflow_dispatch:
+  workflow_dispatch:
     inputs:
       action:
         description: 'Select to deploy'
         required: true
         type: choice
         options:
+          - setup
           - validate_apply_production_1
           - validate_apply_production_2
 
