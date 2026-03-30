@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "s3_bucket" {
-  bucket = "prod-tfstate-region1" # change this
+  bucket = "sompandeyprod-tfstate-region1" # change this
 }
 
 resource "aws_dynamodb_table" "terraform_lock" {
