@@ -34,14 +34,6 @@ The GitHub Actions workflow includes:
 
 ---
 
-## ▶️ How to Run
-
-1. Go to the **Actions** tab in your repository  
-2. Select **Terraform Deployment** workflow  
-3. Click **Run workflow**  
-4. The workflow will deploy infrastructure to all regions  
-
----
 
 ## 🔐 Required Secrets
 
