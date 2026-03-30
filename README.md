@@ -8,7 +8,6 @@ This project uses GitHub Actions to deploy Terraform infrastructure across multi
 
 This workflow allows you to:
 
-- Manually trigger deployments
 - Deploy infrastructure to multiple regions
 - Automate Terraform execution
 - Maintain a simple and consistent deployment process
