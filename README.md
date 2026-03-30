@@ -64,7 +64,6 @@ terraform/
 
 ## ⚠️ Notes
 
-- This workflow is manually triggered using `workflow_dispatch`
 - Setup runs before deployments
 - Each region is deployed separately after setup
 
