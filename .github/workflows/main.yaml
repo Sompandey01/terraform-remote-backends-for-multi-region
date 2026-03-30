@@ -3,7 +3,16 @@ name: Terraform Deployment
 on:
   push:
     branches:
-      - main
+      - main 
+   workflow_dispatch:
+    inputs:
+      action:
+        description: 'Select to deploy'
+        required: true
+        type: choice
+        options:
+          - validate_apply_production_1
+          - validate_apply_production_2
 
 jobs:
   setup:
@@ -84,3 +93,4 @@ jobs:
           terraform init
           terraform validate
           terraform apply -auto-approve
+ 
